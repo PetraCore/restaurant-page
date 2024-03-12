@@ -39,5 +39,3 @@ function loadMenuPage() {
         content.appendChild(categoryCard);
     }
 }
-
-loadMenuPage();
