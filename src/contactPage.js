@@ -1,4 +1,4 @@
-function loadContactPage() {
+export function loadContactPage() {
     const content = document.querySelector('#content');
     content.innerHTML = `
         <div class="card textbox contact">
@@ -28,5 +28,3 @@ function loadContactPage() {
         </div>
     `;
 }
-
-loadContactPage();

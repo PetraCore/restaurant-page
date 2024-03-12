@@ -1,6 +1,6 @@
 import { menu } from './menu.js';
 
-function loadMenuPage() {
+export function loadMenuPage() {
     const content = document.querySelector('#content');
 
     for (const category in menu.getCategories()) {
