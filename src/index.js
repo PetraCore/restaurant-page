@@ -1,5 +1,6 @@
 import './style.css';
 import 'normalize.css';
+import './menuPage.js';
 import Owner from  './img/giorgio.jpg';
 
 function loadHomePage() {
@@ -23,4 +24,4 @@ function loadHomePage() {
     `;
 }
 
-loadHomePage();
+// loadHomePage();
