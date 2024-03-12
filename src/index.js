@@ -7,6 +7,7 @@ import { loadContactPage } from './contactPage.js';
 function clearPage() {
     const content = document.querySelector('#content');
     content.innerHTML = '';
+    window.scrollTo(0,0); 
 }
 
 function activateNavbar() {
