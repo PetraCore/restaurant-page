@@ -4,8 +4,8 @@ export function loadHomePage() {
     const content = document.querySelector('#content');
     content.innerHTML = `
         <div class="card">
-            <img class="profile" src="${Owner}" width=150px height=150px>
-            <!-- Photo by <a href="https://unsplash.com/@lisagageler?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Lisa Gageler</a> on <a href="https://unsplash.com/photos/a-chef-cooking-food-in-a-restaurant-LEKLkHu91BU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img class="profile" src="${Owner}" width=150px height=150px
+            title="Photo by Lisa Gageler on Unsplash">
 
             <div class="textbox">
                 <h1>From Ocean to Table, Pure Delight!</h1>

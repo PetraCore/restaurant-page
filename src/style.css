@@ -4,9 +4,10 @@ body {
 }
 
 .wrapper {
+    position: relative;
     min-height: 100vh;
     display: grid;
-    grid-template: min-content 1fr 50px / 1fr;
+    grid-template: min-content 1fr min-content / 1fr;
     background: center / cover no-repeat url(img/outside.jpg) #FAD8D6;
 }
 
@@ -161,11 +162,27 @@ body {
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 
     color: white;
     text-shadow: 1.5px 1.5px black;
+    padding: 20px 40px;
+
+    & p {
+        margin: 0;
+    }
+
+    & a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+            color: #EDB88B;
+        }
+    }
 }
 
 @media (max-width: 768px) {
