@@ -3,6 +3,10 @@ body {
     min-height: 100vh;
 }
 
+body {
+    font-family: 'Lora', serif;
+}
+
 .wrapper {
     position: relative;
     min-height: 100vh;
