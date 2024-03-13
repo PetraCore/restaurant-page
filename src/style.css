@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template: min-content 1fr min-content / 1fr;
-    background: center / cover no-repeat url(img/outside.jpg) #FAD8D6;
+    background: center / cover no-repeat url(img/outside.jpg) #DBCBBD;
 }
 
 .header {
