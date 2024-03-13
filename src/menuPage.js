@@ -5,7 +5,7 @@ export function loadMenuPage() {
 
     for (const category in menu.getCategories()) {
         const categoryCard = document.createElement('div');
-        categoryCard.classList.add('card', 'textbox');
+        categoryCard.classList.add('card', 'textbox', 'category');
 
         const header = document.createElement('h1');
         header.innerText = category;
