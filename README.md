@@ -7,7 +7,7 @@ See it live [here](https://petracore.github.io/restaurant-page/) to witness me u
 
 You cannot deny that it does sound *very* italian though!  Well... unless you actually know the language unlike me
 
-The filler content (homepage text, menu, contact) info was created in collaboration with my beloved unpaid intern - ChatGPT!
+The filler content (homepage text, menu, contact info) was created in collaboration with my beloved unpaid intern - ChatGPT!
 
 ### My adjustments to the project
 - I thought that hardcoding the menu into the page would be quite *not smart*, since menus tend to change over time.  Therefore, I made my page generate it dynamically.
